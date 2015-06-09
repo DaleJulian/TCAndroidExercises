@@ -1,6 +1,8 @@
 package com.dalejulian.androidexercises;
 
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -12,8 +14,21 @@ public class MainActivity extends FragmentActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.relative_layout_activity);
-    
+        setContentView(R.layout.activity_twopane);
+        
+        FragmentManager fm = getSupportFragmentManager();
+        Fragment fragment = fm.findFragmentById(R.id.twopaneFragmentContainer);
+        
+        if(fragment == null){
+        	fragment = new SampleFragment1();
+        	fm.beginTransaction().add(R.id.twopaneFragmentContainer, fragment).commit();
+        }
+        
+        Fragment detailFragment = fm.findFragmentById(R.id.detailFragmentContainer);
+        if(detailFragment == null){
+        	detailFragment = new SampleFragment2();
+        	fm.beginTransaction().add(R.id.detailFragmentContainer, detailFragment).commit();
+        }
     }
 
     @Override

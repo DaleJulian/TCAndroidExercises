@@ -16,7 +16,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/activitiy1_label"
-        android:gravity="center"
+        android:gravity="center"        
+        android:textSize="10sp"
         android:hint="Enter new greeting.." >
     </EditText>
 
@@ -27,6 +28,7 @@
         android:layout_below="@id/activity1_edittext"
         android:layout_alignParentRight="true"
         android:layout_marginLeft="10dp"
+        android:textSize="10sp"
         android:text="Change"
         />
     
@@ -36,6 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_toLeftOf="@id/activity1_button_change_greet"
         android:layout_alignTop="@id/activity1_button_change_greet"
+        android:textSize="10sp"
         android:text="Choose custom greeting"
         />
 </RelativeLayout>

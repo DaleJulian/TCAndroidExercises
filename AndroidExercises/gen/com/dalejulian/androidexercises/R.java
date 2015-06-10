@@ -1918,7 +1918,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f09003d;
         public static final int action_mode_bar_stub=0x7f09003c;
         public static final int action_mode_close_button=0x7f090025;
-        public static final int action_settings=0x7f09005f;
+        public static final int action_settings=0x7f090064;
         public static final int activitiy1_label=0x7f090057;
         public static final int activity1_button_change_greet=0x7f090059;
         public static final int activity1_choose_custom=0x7f09005a;
@@ -1934,6 +1934,11 @@ containing a value of this type.
         public static final int alertTitle=0x7f090030;
         public static final int always=0x7f090019;
         public static final int beginning=0x7f090020;
+        public static final int btn1=0x7f09005f;
+        public static final int btn2=0x7f090060;
+        public static final int btn3=0x7f090061;
+        public static final int btn4=0x7f090062;
+        public static final int btn5=0x7f090063;
         public static final int buttonPanel=0x7f090036;
         public static final int checkbox=0x7f090038;
         public static final int collapseActionView=0x7f09001a;
@@ -2068,7 +2073,8 @@ containing a value of this type.
         public static final int select_dialog_item_material=0x7f030021;
         public static final int select_dialog_multichoice_material=0x7f030022;
         public static final int select_dialog_singlechoice_material=0x7f030023;
-        public static final int support_simple_spinner_dropdown_item=0x7f030024;
+        public static final int simple_layout=0x7f030024;
+        public static final int support_simple_spinner_dropdown_item=0x7f030025;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
@@ -2140,6 +2146,12 @@ containing a value of this type.
         public static final int button_one=0x7f0a0014;
         public static final int button_two=0x7f0a0015;
         public static final int hello_world=0x7f0a0012;
+        /**  EXERCISE F STRINGS 
+         */
+        public static final int simple_button1=0x7f0a0016;
+        public static final int simple_button2=0x7f0a0017;
+        public static final int simple_button3=0x7f0a0018;
+        public static final int simple_button4=0x7f0a0019;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f0b0040;

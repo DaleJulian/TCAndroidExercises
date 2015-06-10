@@ -33,6 +33,18 @@ public class ListActivityExercise extends Activity{
 				new ShoeBrand("Buscemi"),
 				new ShoeBrand("Y3"),
 				new ShoeBrand("Saint Laurent"),
+				new ShoeBrand("Balenciaga"),
+				new ShoeBrand("Nike"),
+				new ShoeBrand("Adidas"),
+				new ShoeBrand("New Balance"),
+				new ShoeBrand("Saucony"),
+				new ShoeBrand("Asics"),
+				new ShoeBrand("Vans"),
+				new ShoeBrand("Chuck Taylors"),
+				new ShoeBrand("Jordan Brand"),
+				new ShoeBrand("Buscemi"),
+				new ShoeBrand("Y3"),
+				new ShoeBrand("Saint Laurent"),
 				new ShoeBrand("Balenciaga")
 		};
 		

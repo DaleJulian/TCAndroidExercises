@@ -11,7 +11,7 @@
     <string name="button_two">Button 2</string>
     
     <!-- EXERCISE F STRINGS -->
-    <string name="simple_button1">Button 1</string>
+    <string name="simple_button1">Select Date</string>
     <string name="simple_button2">Button 2</string>
     <string name="simple_button3">Button 3</string>
     <string name="simple_button4">Button 4</string>

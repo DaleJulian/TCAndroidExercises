@@ -3,22 +3,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-    
-	<Button
-	    android:id="@+id/hello_world_button"
-	    android:layout_width="wrap_content"
-	    android:layout_height="wrap_content"
-	    android:text="Hi!" 
-	    android:layout_centerInParent="true"
-	    />
-	
-	<TextView
-	    android:id="@+id/hello_world_textview"
-	    android:layout_width="wrap_content"
-	    android:layout_height="wrap_content"
-	    android:layout_centerInParent="true"
-	    android:layout_below="@id/hello_world_button"
-	    android:textSize="50sp" 
-	    android:text="Gloomy day..."
-	    />
+
+    <Button
+        android:id="@+id/hello_world_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Hi!" />
+
+    <TextView
+        android:id="@+id/hello_world_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hello_world_button"
+        android:layout_centerInParent="true"
+        android:text="Gloomy day..."
+        android:textSize="50sp" />
+
+    <CheckBox
+        android:id="@+id/chbExtMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="expanded menu" >
+    </CheckBox>
+
 </RelativeLayout>

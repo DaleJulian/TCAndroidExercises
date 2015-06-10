@@ -19,7 +19,7 @@ public class ListActivityExercise extends Activity{
 	@Override
 	public void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.list_activity);
+		setContentView(R.layout.menu_activity);
 		
 		ShoeBrand shoeBrand_data[] = new ShoeBrand[]{
 				new ShoeBrand("Nike"),

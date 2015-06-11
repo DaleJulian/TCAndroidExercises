@@ -51,6 +51,7 @@ public class SimpleActivity extends FragmentActivity implements ReceiveDateDialo
 				FragmentManager fm = getSupportFragmentManager();
 				DatePickerFragment dialog = new DatePickerFragment().newInstance(mDate);
 				dialog.show(fm, DIALOG_DATE);
+			
 			}
 		});
 		

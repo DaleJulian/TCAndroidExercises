@@ -13,7 +13,7 @@ public class SwitchActivity extends Activity {
 	private Button mButton;
 	private TextView mTextView;
 	private static final String TAG = "com.dalejulian.androidexercises.SwitchActivity";
-
+	
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

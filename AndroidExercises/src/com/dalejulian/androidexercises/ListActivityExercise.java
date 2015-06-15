@@ -19,10 +19,10 @@ public class ListActivityExercise extends Activity{
 	@Override
 	public void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.menu_activity);
+		setContentView(R.layout.list_activity);
 		
 		ShoeBrand shoeBrand_data[] = new ShoeBrand[]{
-				new ShoeBrand("Nike"),
+				new ShoeBrand("Nike", R.drawable.tiffany),
 				new ShoeBrand("Adidas"),
 				new ShoeBrand("New Balance"),
 				new ShoeBrand("Saucony"),
@@ -30,22 +30,22 @@ public class ListActivityExercise extends Activity{
 				new ShoeBrand("Vans"),
 				new ShoeBrand("Chuck Taylors"),
 				new ShoeBrand("Jordan Brand"),
-				new ShoeBrand("Buscemi"),
-				new ShoeBrand("Y3"),
-				new ShoeBrand("Saint Laurent"),
-				new ShoeBrand("Balenciaga"),
-				new ShoeBrand("Nike"),
-				new ShoeBrand("Adidas"),
-				new ShoeBrand("New Balance"),
-				new ShoeBrand("Saucony"),
-				new ShoeBrand("Asics"),
-				new ShoeBrand("Vans"),
-				new ShoeBrand("Chuck Taylors"),
-				new ShoeBrand("Jordan Brand"),
-				new ShoeBrand("Buscemi"),
-				new ShoeBrand("Y3"),
-				new ShoeBrand("Saint Laurent"),
-				new ShoeBrand("Balenciaga")
+				new ShoeBrand("Buscemi", R.drawable.tiffany),
+				new ShoeBrand("Y3", R.drawable.tiffany),
+				new ShoeBrand("Saint Laurent", R.drawable.tiffany),
+				new ShoeBrand("Balenciaga", R.drawable.tiffany),
+				new ShoeBrand("Nike", R.drawable.tiffany),
+				new ShoeBrand("Adidas", R.drawable.tiffany),
+				new ShoeBrand("New Balance", R.drawable.tiffany),
+				new ShoeBrand("Saucony", R.drawable.tiffany),
+				new ShoeBrand("Asics", R.drawable.tiffany),
+				new ShoeBrand("Vans", R.drawable.tiffany),
+				new ShoeBrand("Chuck Taylors", R.drawable.tiffany),
+				new ShoeBrand("Jordan Brand", R.drawable.tiffany),
+				new ShoeBrand("Buscemi", R.drawable.tiffany),
+				new ShoeBrand("Y3", R.drawable.tiffany),
+				new ShoeBrand("Saint Laurent", R.drawable.tiffany),
+				new ShoeBrand("Balenciaga", R.drawable.tiffany)
 		};
 		
 		ShoeBrandAdapter adapter = new ShoeBrandAdapter(this, R.layout.fragment_shoe_brand, shoeBrand_data);

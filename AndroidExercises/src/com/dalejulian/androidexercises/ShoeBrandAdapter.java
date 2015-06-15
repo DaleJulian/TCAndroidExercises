@@ -63,8 +63,9 @@ public class ShoeBrandAdapter extends ArrayAdapter<ShoeBrand> {
 		Bitmap bitmap = BitmapFactory.decodeResource(context.getResources(),
 				brand.thumbnailId, options);
 
-		//holder.thumbnail.setImageBitmap(bitmap);
-		holder.thumbnail.setImageBitmap(decodeSampledBitmapFromResource(context.getResources(), brand.thumbnailId, 100, 100));
+		// holder.thumbnail.setImageBitmap(bitmap);
+		holder.thumbnail.setImageBitmap(decodeSampledBitmapFromResource(
+				context.getResources(), brand.thumbnailId, 25, 25));
 		return row;
 	}
 
